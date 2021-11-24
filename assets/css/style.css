@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;600&family=Bebas+Neue&family=Teko:wght@700&display=swap');
+
+.navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    font-family: "bebas neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.nav-link {
+    font-family: "barlow semi condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    width: 90vw;
+    background-image: url(../images/controller-image.jpg);
+    background-size:cover;
+    background-position: center;
+    border-radius: 25px;
+    filter: brightness(80%);
+  }
+
+.hero-heading {
+    color: #fff;
+    font-family: "bebas neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+.hero-subheading {
+    color: #fff;
+    font-family: "barlow semi condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.three-features {
+    margin: 30px;
+}
+
+.feature-box {
+    background-color: lightgrey;
+    margin: 1%;
+    min-height: 300px;
+}
