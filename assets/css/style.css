@@ -33,7 +33,7 @@
     background-position: center;
     border-radius: 25px;
     filter: brightness(80%);
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
 
 .hero-heading {
@@ -55,22 +55,48 @@
     padding-top: 8rem!important;
 }
 
-.feature-box {
-    background-color: #fafafa;
-    border-radius: 25px;
-    margin: 1%;
-    min-height: 300px;
-    box-shadow: 0px 8px 15px #212529;
+.button-container {
+    width: 100%;
 }
 
-.red-bg {
-    top: -650px;
-    z-index: -1;
-    background-color: #212529;
-    height: 100vh;
-    width: 100ww;
+/* BUTTON ANIMATION CUSTOMIZED FROM TEMPLATE AT https://copy-paste-css.com/  */
+
+.hero-button {
+    margin: auto;
+    width: 220px;
+    height: 100px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+    background: transparent;
+    color: #fff;
+    box-shadow: 0 0 0 5px #fff inset;
+    }
+    
+    .hero-button:hover{
+        transform: translateY(-10px);
+    }
+
+    /* END BUTTON ANIMATION */
+
+    .button-text {
+    color: #fff;
+    font-family: "barlow semi condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
     position: relative;
-}
+    }
 
 .features-heading {
     font-family: "bebas neue", sans-serif;
@@ -79,14 +105,23 @@
     text-align: center;
 }
 
+.divider {
+    height: 8px;
+    width: 65px;
+    background-color: #212529;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
 .feature.cards {
     margin-right: 5%;
     margin-left: 5%;
 }
 
 .info-card {
+    padding: 10px;
     min-width: 200px;
-    min-height: 200px;
+    min-height: 100px;
     border-radius: 20px;
 }
 
@@ -95,9 +130,15 @@
     font-size: 30px;
 }
 
+.info-card i {
+    font-size: 30px;
+}
+
 .info-card p {
-    font-size: 40px;
-    color: blue;
+    font-family: "barlow semi condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 
@@ -107,3 +148,4 @@
         border-radius: 0;
     }
     }
+    
