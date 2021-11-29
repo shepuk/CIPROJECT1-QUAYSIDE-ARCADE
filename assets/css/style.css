@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;600&family=Bebas+Neue&family=Teko:wght@700&display=swap');
 
+
+/* ------------------------------------------------------------ MULTI-USE COMPONENTS */
+
+.divider {
+    height: 8px;
+    width: 65px;
+    background-color: #212529;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+/* ------------------------------------------------------------ NAVBAR */
+
 .navbar {
     padding-left: 10%;
     padding-right: 10%;
@@ -17,24 +30,28 @@
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 10px;
+    transition: 200ms;
 }
 
 .nav-link:hover {
-    background-color: black;
+    transform: scale(1.2);
+    color: #000
 }
 
-.hero-image{
+/* ------------------------------------------------------------ HERO SECTION */
+
+.hero-image {
     margin-left: auto;
     margin-right: auto;
     height: 75vh;
     width: 90vw;
     background-image: url(../images/controller-image.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     border-radius: 25px;
     filter: brightness(80%);
     margin-bottom: 60px;
-  }
+}
 
 .hero-heading {
     color: #fff;
@@ -52,7 +69,7 @@
 
 /* PUSHES HERO TEXT DOWN */
 .pt-5 {
-    padding-top: 8rem!important;
+    padding-top: 8rem !important;
 }
 
 .button-container {
@@ -77,15 +94,15 @@
     background: transparent;
     color: #fff;
     box-shadow: 0 0 0 5px #fff inset;
-    }
-    
-    .hero-button:hover{
-        transform: translateY(-10px);
-    }
+}
 
-    /* END BUTTON ANIMATION */
+.hero-button:hover {
+    transform: translateY(-10px);
+}
 
-    .button-text {
+/* END BUTTON ANIMATION */
+
+.button-text {
     color: #fff;
     font-family: "barlow semi condensed", sans-serif;
     font-size: 40px;
@@ -94,21 +111,15 @@
     text-align: center;
     vertical-align: middle;
     line-height: 60px;
-    }
+}
+
+/* ------------------------------------------------------------ FEATURES SECTION */
 
 .features-heading {
     font-family: "bebas neue", sans-serif;
     text-transform: uppercase;
     font-size: 80px;
     text-align: center;
-}
-
-.divider {
-    height: 8px;
-    width: 65px;
-    background-color: #212529;
-    margin: auto;
-    margin-bottom: 35px;
 }
 
 .feature.cards {
@@ -139,6 +150,41 @@
     text-transform: uppercase;
 }
 
+/* ------------------------------------------------------------ GALLERY SECTION */
+
+.gallery-heading {
+    margin-top: 50px;
+    font-family: "bebas neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 30px;
+}
+
+.gallery-section {
+    padding: 40px 50px 40px 50px;
+    background-color: #212529;
+}
+
+.gallery-section h2 {
+    color: #fff;
+}
+
+.gallery-section .divider {
+    background-color: #fff;
+}
+
+.gallery {
+    column-count: 4;
+}
+
+/* ------------------------------------------------------------ EVENTS SECTION */
+
 .events-heading {
     margin-top: 50px;
     font-family: "bebas neue", sans-serif;
@@ -149,8 +195,6 @@
 
 .event-card {
     min-height: 320px;
-    min-width: 220px;
-    max-width: 300px;
     background-color: #ffffff;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 25px;
@@ -160,8 +204,6 @@
 
 .after-dark-card {
     min-height: 320px;
-    min-width: 220px;
-    max-width: 300px;
     background-color: #212529;
     border: 2px solid #212529;
     border-radius: 25px;
@@ -207,13 +249,24 @@
     color: #fff;
 }
 
-.red-bg {
-    width: 100%;
-    height: 100vh;
-    margin-top: 80px;
+/* ------------------------------------------------------------ FOOTER */
+
+.footer {
+    margin-top: 100px;
     background-color: #212529;
 }
 
+.address-box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.social-links {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
 
 @media only screen and (max-width: 992px) {
     .hero-image {
@@ -221,11 +274,36 @@
         border-radius: 0;
     }
 
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    /* MOVES HERO TEXT UP VERTICALLY FOR BETTER MOBILE SPACING */
+    .pt-5 {
+        padding-top: 4rem !important;
     }
 
-/* MOVES HERO TEXT UP VERTICALLY FOR BETTER MOBILE SPACING */
- @media only screen and (max-width: 576px) {
-      .pt-5 {
-        padding-top: 4rem!important;
-            }
-        }
+    /* REMOVES CSS STYLING AND ALLOWS BOOTSTRAP DEFAULT FOR BETTER MOBILE SPACING */
+    .event-card {
+        margin-left: 10%;
+        margin-right: 10%;
+        min-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .gallery {
+        column-count: 3;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery {
+        column-count: 2;
+    }
+
+    .mobile-not-essential {
+        display: none;
+    }
+}
