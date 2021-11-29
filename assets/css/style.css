@@ -150,6 +150,10 @@
     text-transform: uppercase;
 }
 
+.features-items {
+    margin-bottom: 50px!important;
+}
+
 /* ------------------------------------------------------------ GALLERY SECTION */
 
 .gallery-heading {
@@ -262,10 +266,31 @@
     color: #fff;
 }
 
+.address-box p {
+    font-family: "barlow semi condensed", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 8px;
+    margin-left: 20px;
+}
+
 .social-links {
     margin-top: 40px;
     margin-bottom: 40px;
     color: #fff;
+    font-size: 30px;
+}
+
+.social-links li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    transition: 200ms;
+}
+
+.social-links li:hover {
+    transform: scale(1.2);
 }
 
 @media only screen and (max-width: 992px) {
