@@ -301,6 +301,49 @@
 
 }
 
+/* ------------------------------------------------------------ PLAY.HTML */
+
+.info-row {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.info-row h2,
+.info-row h3,
+.info-row p {
+    padding: 10px 50px 10px 50px;
+}
+
+.info-row img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.row-1 {
+    background-color: #667761;
+}
+
+.row-2 {
+    background-color: #54457F;
+}
+
+.row-3 {
+    background-color: #F0544F;
+}
+
+.row-4 {
+    background-color: #FDF0D5;
+}
+
+.row-5 {
+    background-color: #C6D8D3;
+}
+
+
+
+
 
 @media only screen and (max-width: 576px) {
 
