@@ -304,14 +304,31 @@
 /* ------------------------------------------------------------ PLAY.HTML */
 
 .info-row {
-    padding-left: 0;
-    padding-right: 0;
+    width: 80vw;
+    margin: auto;
+    height: 400px;
+    display: flex;
+}
+
+.play-text {
+    width: auto;
+    display: block;
+}
+
+.play-image {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
 }
 
 .info-row h2,
 .info-row h3,
 .info-row p {
-    padding: 10px 50px 10px 50px;
+    color: rgb(0, 0, 0);
 }
 
 .info-row img {
@@ -341,6 +358,26 @@
     background-color: #C6D8D3;
 }
 
+
+.background-box {
+    width: 80vw;
+    height: 400px;
+    margin: auto;
+    border-radius: 35px;
+    background-image: linear-gradient(to bottom right, #761D72, #971E58);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.background-box-2 {
+    width: 80vw;
+    height: 400px;
+    margin: auto;
+    border-radius: 35px;
+    background-image: linear-gradient(to top right, #F5CDDE, #F9DED7);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 
 
