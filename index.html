@@ -16,35 +16,31 @@
 
   <!--NAVBAR-->
   <header>
-    <!--NAVBAR LAYOUT DESIGNED USING BOOTSTRAP DOCUMENTATION AND DEMO @ https://getbootstrap.com/docs/5.0/components/navbar/-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand logo" href="#">Quayside Arcade <img style="height: 30px; width: 30px;"
-            src="/assets/images/dpad-logo.png" alt="Controller Logo"> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Play</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Bar & Cafe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <!--NAVBAR LAYOUT DESIGNED USING BOOTSTRAP DOCUMENTATION @ https://getbootstrap.com/docs/5.0/components/navbar/-->
+      <nav class="navbar py-4 navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">Quayside Arcade <img style="height: 30px; width: 30px;"src="/assets/images/dpad-logo-light.png" alt="Controller Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Play / Compete</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bar / Cafe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Book / Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </nav>
   </header>
 
@@ -258,25 +254,11 @@
 
   <!--FOOTER-->
   <foooter>
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col text-start address-box">
-            <p>Arcade House</p>
-            <p>502 Quayside Row</p>
-            <p>Newcastle Upon Tyne</p>
-            <p>NE1 NE1</p>
-          </div>
-          <div class="col text-end social-links">
-            <ul>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-facebook-square"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-          </ul>
-          </div>
-        </div>
+          <div class="d-flex justify-content-center social-links footer">
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
       </div>
-    </div>
   </foooter>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

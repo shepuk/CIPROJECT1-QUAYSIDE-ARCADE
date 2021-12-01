@@ -18,6 +18,10 @@
     padding-right: 10%;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
 .logo {
     font-family: "bebas neue", sans-serif;
     text-transform: uppercase;
@@ -29,14 +33,18 @@
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    border-radius: 10px;
-    transition: 200ms;
 }
 
-.nav-link:hover {
-    transform: scale(1.2);
-    color: #000
-}
+/* Navbar styling below taken from Stack Overflow as a fix to center nav items when in collapsed view 
+https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootstrap-navbar */
+.navbar .navbar-nav {
+    float: none;
+    vertical-align: top;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
 
 /* ------------------------------------------------------------ HERO SECTION */
 
@@ -77,7 +85,6 @@
 }
 
 /* BUTTON ANIMATION CUSTOMIZED FROM TEMPLATE AT https://copy-paste-css.com/  */
-
 .hero-button {
     margin: auto;
     width: 220px;
@@ -98,9 +105,8 @@
 
 .hero-button:hover {
     transform: translateY(-10px);
+    background-color: #a52545;
 }
-
-/* END BUTTON ANIMATION */
 
 .button-text {
     color: #fff;
@@ -260,28 +266,13 @@
     background-color: #212529;
 }
 
-.address-box {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    color: #fff;
-}
-
-.address-box p {
-    font-family: "barlow semi condensed", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 8px;
-    margin-left: 20px;
-}
-
 .social-links {
     margin-top: 40px;
-    margin-bottom: 40px;
-    color: #fff;
-    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.social-links li {
+.social-links a {
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
@@ -289,112 +280,33 @@
     transition: 200ms;
 }
 
-.social-links li:hover {
+.social-links a:hover {
     transform: scale(1.2);
 }
+
+.social-links i {
+    color: white;
+    font-size: 30px;
+}
+
+/* ------------------------------------------------------------ MEDIA QUERIES */
 
 @media only screen and (max-width: 992px) {
     .hero-image {
         width: 100vw;
+        height: 100vh;
         border-radius: 0;
     }
 
-}
-
-/* ------------------------------------------------------------ PLAY.HTML */
-
-.info-row {
-    width: 80vw;
-    margin: auto;
-    height: 400px;
-    display: flex;
-}
-
-.play-text {
-    width: auto;
-    display: block;
-}
-
-.play-image {
-    width: auto;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    background-size:cover; 
-    background-position:center center; 
-    background-repeat:no-repeat; 
-}
-
-.info-row h2,
-.info-row h3,
-.info-row p {
-    color: rgb(0, 0, 0);
-}
-
-.info-row img {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.row-1 {
-    background-color: #667761;
-}
-
-.row-2 {
-    background-color: #54457F;
-}
-
-.row-3 {
-    background-color: #F0544F;
-}
-
-.row-4 {
-    background-color: #FDF0D5;
-}
-
-.row-5 {
-    background-color: #C6D8D3;
-}
-
-
-.background-box {
-    width: 80vw;
-    height: 400px;
-    margin: auto;
-    border-radius: 35px;
-    background-image: linear-gradient(to bottom right, #761D72, #971E58);
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.background-box-2 {
-    width: 80vw;
-    height: 400px;
-    margin: auto;
-    border-radius: 35px;
-    background-image: linear-gradient(to top right, #F5CDDE, #F9DED7);
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-
-
-
-@media only screen and (max-width: 576px) {
-
-    /* MOVES HERO TEXT UP VERTICALLY FOR BETTER MOBILE SPACING */
-    .pt-5 {
-        padding-top: 4rem !important;
+    .my-5 {
+        margin-top: 0rem!important;
     }
 
-    /* REMOVES CSS STYLING AND ALLOWS BOOTSTRAP DEFAULT FOR BETTER MOBILE SPACING */
-    .event-card {
-        margin-left: 10%;
-        margin-right: 10%;
-        min-height: 50px;
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
     }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -410,5 +322,24 @@
 
     .mobile-not-essential {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* MOVES HERO TEXT UP VERTICALLY FOR BETTER MOBILE SPACING */
+    .pt-5 {
+        padding-top: 4rem !important;
+    }
+
+    /* REMOVES CSS STYLING AND ALLOWS BOOTSTRAP DEFAULT FOR BETTER MOBILE SPACING */
+    .event-card {
+        margin-left: 10%;
+        margin-right: 10%;
+        min-height: 50px;
+    }
+
+    .gallery {
+        column-count: 1;
     }
 }
