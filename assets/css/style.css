@@ -89,6 +89,10 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     width: 100%;
 }
 
+.button-container a {
+    text-decoration: none;
+}
+
 /* BUTTON ANIMATION CUSTOMIZED FROM TEMPLATE AT https://copy-paste-css.com/  */
 .hero-button {
     margin: auto;
@@ -110,7 +114,7 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
 
 .hero-button:hover {
     transform: translateY(-10px);
-    background-color: #a52545;
+    background-color: #212529;
 }
 
 .button-text {
@@ -122,6 +126,7 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     text-align: center;
     vertical-align: middle;
     line-height: 60px;
+    text-decoration: none;
 }
 
 /* ------------------------------------------------------------ FEATURES SECTION */
@@ -320,7 +325,12 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     font-weight: 200;
     padding-bottom: 10px;
     margin-bottom: 15px;
-    border-bottom: 1px solid lightgray;
+}
+
+.article-section li {
+    font-family: "barlow semi condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .main-page-article img {
@@ -331,7 +341,7 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     float: right;
 }
 
-.article-heading h2 {
+.article-section h2 {
     font-family: "bebas neue", sans-serif;
     text-transform: uppercase;
     font-size: 70px;
@@ -365,6 +375,14 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     .navbar {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .main-page-article img {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        border-radius: 10px;
+        float: none;
     }
 
 }
