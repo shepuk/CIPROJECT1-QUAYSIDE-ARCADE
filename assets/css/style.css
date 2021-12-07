@@ -315,16 +315,33 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     color: #fff;
 }
 
+/* ------------------------------------------------------------ EXPLORE SECTION */
+
+.hero-explore {
+    background-image: url(../images/play.html/explorehero.jpg);
+}
+
+/* ------------------------------------------------------------ CONTACT PAGE */
+
+.contact-heading h2{
+    margin-top: 50px;
+    font-family: "bebas neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+
 /* ------------------------------------------------------------ FOOTER */
 
 .footer {
-    margin-top: 100px;
+    padding-top: 80px;
     background-color: #212529;
 }
 
 .social-links {
-    margin-top: 40px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -344,41 +361,6 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     color: white;
     font-size: 30px;
 }
-
-.row-play {
-    width: 100%;
-    background-color: #e63946;
-}
-
-.row-compete {
-    width: 100%;
-    background-color: #ff9d9d;
-}
-
-.row-eatanddrink {
-    width: 100%;
-    background-color: #a8dadc;   
-}
-
-.row-quotes {
-    width: 100%;
-    background-color: #457b9d;
-}
-
-.row-map {
-    width: 100%;
-    background-color: #1d3557; 
-}
-
-.image-pane img {
-    width: 100%;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 25px;
-}
-
-
 
 /* ------------------------------------------------------------ MEDIA QUERIES */
 
