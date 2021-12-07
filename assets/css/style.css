@@ -331,7 +331,10 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     text-align: center;
 }
 
-
+form {
+    font-family: "barlow semi condensed", sans-serif;
+    font-weight: 600;
+}
 
 /* ------------------------------------------------------------ FOOTER */
 
