@@ -45,6 +45,7 @@
     font-size: 35px;
 }
 
+/* LINK ANIMATION CUSTOMIZED FROM TEMPLATE AT https://copy-paste-css.com/  */
 .nav-link {
     font-family: "barlow semi condensed", sans-serif;
     font-size: 16px;
@@ -67,37 +68,8 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
   .navbar .navbar-collapse {
     text-align: center;
   }
-
-  /* ------------------------------------------------------------ ANNOUNCEMENT SECTION */
-
-  .twitch-alert {
-    background-color: #6441a5;
-    border: 0;
-    border-radius: 0;
-    color: #fff;
-    margin-bottom: 0!important;
-  }
-
-  .twitch-alert h4,
-  .twitch-alert a {
-    display: inline;
-    color: #fff;
-    font-family: "barlow semi condensed", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    text-decoration: none;
-    letter-spacing: 1px;
-  }
-
-  .twitch-alert i {
-    font-size: 1.5em;
-  }
-
-  .twitch-alert a:hover {
-      text-decoration: underline;
-  }
-
+  
+/*index.html*/
 /* ------------------------------------------------------------ HERO SECTION */
 
 .hero-image {
@@ -316,7 +288,8 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     color: #fff;
 }
 
-/* ------------------------------------------------------------ EXPLORE SECTION */
+/*explore.html*/
+/* ------------------------------------------------------------ PLAY SECTION */
 
 .hero-explore {
     background-image: url(../images/explore/explorehero.jpg);
@@ -369,6 +342,8 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
+/* ------------------------------------------------------------ COMPETE SECTION */
+
 .compete-img img {
     width: 100%;
     max-height: 400px;
@@ -397,6 +372,8 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     font-weight: 600;
 }
 
+/* ------------------------------------------------------------ INDULGE SECTION */
+
 .dine-col img {
     border-radius: 50%;
     height: 250px;
@@ -424,7 +401,8 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     margin-bottom: 100px;
 }
 
-/* ------------------------------------------------------------ CONTACT PAGE */
+/*contact.html*/
+/* ------------------------------------------------------------ FORM SECTION */
 
 .contact-heading h2{
     margin-top: 50px;
@@ -438,6 +416,8 @@ form {
     font-family: "barlow semi condensed", sans-serif;
     font-weight: 600;
 }
+
+/* ------------------------------------------------------------ MAP SECTION */
 
 .address-text {
     font-family: "bebas neue", sans-serif;
@@ -483,10 +463,6 @@ form {
     .gallery {
         column-count: 3;
     }
-
-    .quick-nav-background {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -524,6 +500,7 @@ form {
         column-count: 2;
     }
 
+    /*REMOVES 2 IMAGES SO GALLERY SECTION IS NOT TOO BIG ON MOBILE*/
     .mobile-not-essential {
         display: none;
     }
