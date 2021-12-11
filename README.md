@@ -11,25 +11,18 @@
 #Screenshots
 [insert screenshots here]
 
-
 ## User Experience (UX)
 
 -   ### User stories
-
     -   #### New Visitor Goals
-
         1. As a new visitor, I want to find information on what the venue does and what it has to offer me.
         2. As a new visitor, I want to look at images and see what it's like inside the business.
         3. As a new visitor, I want to find out about any upcoming events to spectate or sign up.
         4. As a new visitor, I would like to see menu and pricing options.
-
     -   #### Returning Visitor Goals
-
         1. As a Returning Visitor, I want to check on upcoming events to spectate or sign up if desired.
         2. As a Returning Visitor, I want to find contact details for the organisation.
-
     -   #### Booked Visitor Goals
-
         1. As a Booked Visitor, I want to find directions to the venue.
         2. As a booked Visitor, I want to find info and pricing on food and drinks.
 
@@ -47,22 +40,19 @@
         - Other images are used throughout and act responsively. A gallery section showcases an inviting venue. Images of food and drinks acompany descriptions of a bar/cafe area for reference. 
         -   Various stock imagery has been used througout the website. I was careful to choose images which complemented the design/ font/ colour scheme of my website. Stock photos are sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
-*   ### Wireframes
+- ### Wireframes
 
 
 ## Features
-
 -   The website has been designed with responsiveness in mind at all times. Not only do elements responsively and dynamicly move around the page to suit different viewports, but my design is actively updated as well. For example, hero sections change to a full screen design on smaller devices and remove all margins as this looks much better on phone screens.
 - The website is interactive and provides great feedback to the user. Starting with the navbar, links scale and change colour when hovered over. The navbar updates to a dropdown on smaller devices. Buttons throughout the website animate and change colour when hovered over.
 - In interactive Google Map is implemented via iframe.
 - The contact form animates when clicked and filled in.
 
 ### Features to implement in the future
-
 - I would like to return to this project and add an event booking feature. This would allow users to select an event, enter their details and be enrolled in one of the advertised events. 
 
 ### Technologies / Libraries / Programs
-
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
@@ -78,11 +68,11 @@
 - [CopyPaste CSS](https://copy-paste-css.com/) was used when picking an appropriate animation for button.
 - [jQuery](https://jquery.com/) is used with Bootstrap to provide the responsive navbar.
 
+
 ## Testing
 
 ### User Stories
-
-- **First time visitor goals**
+- First time visitor goals
     1. As a new visitor, I want to find information on what the venue does and what it has to offer me.
         - The business features are made immidiately apparent to the user with a short but descriptive hero section, followed by a grid list of products and services. 
         - A clean navigaton style helps the user to browse the website easilly and strong headings provide strong context. A natural flow through the website is provided by large 'call to action' buttons in the hero headings, with the goal of eventually leading the user to the booking page.
@@ -91,39 +81,39 @@
     3. As a new visitor, I want to find out about any upcoming events to spectate or sign up.
         - A row of cards shows upcoming events clearly. This is on the home page, and also linked back to via the explore page. Booking instructions are provideed clearly underneath the event listings so that the user knows how to book if desired.
     4. As a new visitor, I would like to see menu and pricing options.
+        - As part of the user journey, users will eventually be directed to the appropriate section to find out more about the eating and drinking options. Of course, for users seeking this information out specifically, headings are clear and the desired section is easy to find. 
+        - PDF food and drinks menus can be viewed and downloaded by the user, with contain details and pricing for various products.
 
-    -   #### Returning Visitor Goals
+- Returning Visitor Goals
+    1. As a Returning Visitor, I want to check on upcoming events to spectate or sign up if desired.
+        - The event listings are provided on the home page, for very quick access to users who wish to view this specifically.
+        - Again, a row of cards shows upcoming events clearly. This is on the home page, and also linked back to via the explore page. Booking instructions are provideed clearly underneath the event listings so that the user knows how to book if desired.
+    2. As a Returning Visitor, I want to find contact details for the organisation.
+        - Conforming to widely accepted user experience giudelines, a dedicated contact page is linked in the navigatoin bar at the top of each page. The contact form is shirt and only asks for necessary information from the user. After filling out the form, the page reloads to confirm to the user that the information has been sent to the business. 
 
-        1. As a Returning Visitor, I want to check on upcoming events to spectate or sign up if desired.
-        2. As a Returning Visitor, I want to find contact details for the organisation.
-
-    -   #### Booked Visitor Goals
-
-        1. As a Booked Visitor, I want to find directions to the venue.
-        2. As a booked Visitor, I want to find info and pricing on food and drinks.
+- Booked Visitor Goals
+    1. As a Booked Visitor, I want to find directions to the venue.
+        - An address and map are provided on the contact page so that the user can easily find their way to the venue.
+    2. As a booked Visitor, I want to find info and pricing on food and drinks.
+        - As part of the user journey, users will eventually be directed to the appropriate section to find out more about the eating and drinking options. Of course, for users seeking this information out specifically, headings are clear and the desired section is easy to find. 
+        - PDF food and drinks menus can be viewed and downloaded by the user, with contain details and pricing for various products.
 
 ### Testing the code
-
 Throughout the project, I used the W3C validator tools to find and fix various typos or errors in my code.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [Home page validator resuls]
 - [Explore page validator results]
 - [Contact page validator results]
 - [CSS file validator results]
 
 #### Bug examples
-
 1. I ran into issues when trying to center some text placed inside the hero heading button. 
     - This was resolved by removing the parent div of the p element and directly center aligning the p element instead.
 2. Link hover animations were not displaying correctly when the navbar was in it's collapsed moobile state. To resolve this I needed to center the links in the dropdown menu, however Bootstrap's styling made this difficult.
     - After some troubleshooting, I searched online and found a StackOverflow post detailing a similar issue. After applying the fix the animations appeared correctly.
 3. In mobile views when some hero section media queries take effect, some horizontal scrolling was activated, creating unwanted overflow of the hero image, behind the scrollbar.
     - I found the fix for this to be related to my CSS styling. I altered the media query to update the hero image to 100% width rather than 100vw width to resolve this.
-
-
 
 ## Depoyment
 
