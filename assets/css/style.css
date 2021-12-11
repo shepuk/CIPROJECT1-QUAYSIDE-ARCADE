@@ -288,6 +288,34 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     color: #fff;
 }
 
+.booking-instructions {
+    background-color: #1d3557;
+    border-radius: 50px;
+    margin: 50px 0px;
+    padding: 40px;
+    box-shadow: 0px 2px 10px #535353;
+}
+
+.booking-instructions h3 {
+    font-family: "bebas neue", sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.booking-instructions p {
+    font-family: "barlow semi condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.booking-instructions p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
 /*explore.html*/
 /* ------------------------------------------------------------ PLAY SECTION */
 
