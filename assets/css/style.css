@@ -28,6 +28,19 @@
         #1d3557 100%);
 }
 
+.btn-dark {
+    border: 5px solid!important;
+    border-color: #457b9d!important;
+}
+
+.btn {
+    font-family: 'barlow semi condensed', sans-serif!important;
+    font-weight: 600!important;
+    font-size: 15px!important;
+    color: #fff!important;
+    text-transform: uppercase;
+}
+
 /* ------------------------------------------------------------ NAVBAR */
 
 .navbar {
