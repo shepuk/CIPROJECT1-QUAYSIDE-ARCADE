@@ -3,6 +3,45 @@
 ## Live Project
 [View the live project here.](https://shepuk.github.io/CIPROJECT1-QUAYSIDE-ARCADE/)
 
+## Table of Contents
+
+  * [Milestone Project One](#milestone-project-one)
+  * [Screenshots](#screenshots)
+    + [Home page screenshot](#home-page-screenshot)
+    + [Explore page screenshot](#explore-page-screenshot)
+    + [Contact page screenshot](#contact-page-screenshot)
+  * [User Experience (UX)](#user-experience--ux-)
+    + [User stories](#user-stories)
+      - [New Visitor Goals](#new-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Booked Visitor Goals](#booked-visitor-goals)
+    + [Design](#design)
+      - [Colour Scheme](#colour-scheme)
+      - [Typography](#typography)
+      - [Imagery](#imagery)
+    + [Wireframes](#wireframes)
+  * [Features](#features)
+    + [Features to implement in the future](#features-to-implement-in-the-future)
+    + [Technologies / Libraries / Programs](#technologies---libraries---programs)
+  * [Testing](#testing)
+    + [User Stories](#user-stories)
+    + [First time visitor goals](#first-time-visitor-goals)
+    + [Returning Visitor Goals](#returning-visitor-goals-1)
+    + [Booked Visitor Goals](#booked-visitor-goals-1)
+    + [Testing the code](#testing-the-code)
+      - [Bug examples](#bug-examples)
+      - [Existing bugs](#existing-bugs)
+  * [Setup, Backups & Depoyment](#setup--backups---depoyment)
+  * [Credits](#credits)
+    + [Bootstrap 5 components used](#bootstrap-5-components-used)
+    + [Documentation & Online Help](#documentation---online-help)
+    + [Media](#media)
+    + [Content](#content)
+    + [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Milestone Project One
 - This project tasked me with creating a static website with three pages using front end technologies. Additionally, content should be justified, functional, presented logically, accessible and responsive.
 - Quayside Arcade is a fictional modern arcade/bar/cafe, and a project which I have created to display and test front end abilities. HTML, CSS and Bootstrap were primarilly used, along with other tools which will be outlined in this ReadMe.
