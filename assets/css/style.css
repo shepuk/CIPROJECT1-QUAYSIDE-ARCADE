@@ -41,6 +41,10 @@
     text-transform: uppercase;
 }
 
+.btn-dark:hover {
+    background-color: #457b9d!important;
+}
+
 /* ------------------------------------------------------------ NAVBAR */
 
 .navbar {
