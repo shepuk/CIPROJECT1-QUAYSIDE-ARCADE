@@ -1,7 +1,7 @@
 # Quayside Arcade
 
 ## Live Project
-[View the live project here.](Insert link here)
+[View the live project here.](https://shepuk.github.io/CIPROJECT1-QUAYSIDE-ARCADE/)
 
 ## Milestone Project One
 - This project tasked me with creating a static website with three pages using front end technologies. Additionally, content should be justified, functional, presented logically, accessible and responsive.
@@ -17,7 +17,7 @@
 <img src="assets/images/screenshots/explorepagescreenshot.png">
 
 ### Contact page screenshot
-<img src="assets/images/screenshots/explorepagescreenshot.png">
+<img src="assets/images/screenshots/contactpagescreenshot.png">
 
 ## User Experience (UX)
 
@@ -49,6 +49,8 @@
         -   Various stock imagery has been used througout the website. I was careful to choose images which complemented the design/ font/ colour scheme of my website. Stock photos are sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
 - ### Wireframes
+    - View wireframe [here](https://github.com/shepuk/CIPROJECT1-QUAYSIDE-ARCADE/blob/main/assets/images/wireframe/wireframe.png)
+    - Initial wireframes were designed to provide a basic layout and structure when going into the project. As you can see from the image, my biggest change is probably the scope of the overall design. After a re-evaluation of my available time, I changed from four pages to three in order to ensure a higher overall quality in design and UX. 
 
 
 ## Features
@@ -61,9 +63,8 @@
 - I would like to return to this project and add an event booking feature. This would allow users to select an event, enter their details and be enrolled in one of the advertised events. 
 
 ### Technologies / Libraries / Programs
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) provided the main structure of the page.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) allowed me to style elements of the website, and also customize Bootstrap styling.
 - [Bootstrap 5](https://getbootstrap.com/) was used throughout the project for its modern and responsive layouts. Navbar, forms, grid and accordion were the main components used.
 - [jQuery](https://jquery.com/) is used with Bootstrap to provide the responsive navbar.
 - [Font Awesome](https://fontawesome.com/) provided several icons to help make the website look more attractive and give text more emphasis.
@@ -80,9 +81,9 @@
 ## Testing
 
 ### User Stories
-A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial briefw was important and is outlined below. Some testing was performed by friends and collegues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
+A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial briefw was important and is outlined below. I tested the website in Chrome, Firefox, Edge, Internet Explorer and Safari browsers, as well as large and small computer displays and mobile phones. All links on all pages were tested. Some testing was performed by friends and collegues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
 
-- First time visitor goals
+- ### First time visitor goals
     1. As a new visitor, I want to find information on what the venue does and what it has to offer me.
         - The business features are made immidiately apparent to the user with a short but descriptive hero section, followed by a grid list of products and services. 
         - A clean navigaton style helps the user to browse the website easilly and strong headings provide strong context. A natural flow through the website is provided by large 'call to action' buttons in the hero headings, with the goal of eventually leading the user to the booking page.
@@ -94,14 +95,14 @@ A mixture of manual and validator testing was performed on the website throughou
         - As part of the user journey, users will eventually be directed to the appropriate section to find out more about the eating and drinking options. Of course, for users seeking this information out specifically, headings are clear and the desired section is easy to find. 
         - PDF food and drinks menus can be viewed and downloaded by the user, with contain details and pricing for various products.
 
-- Returning Visitor Goals
+- ### Returning Visitor Goals
     1. As a Returning Visitor, I want to check on upcoming events to spectate or sign up if desired.
         - The event listings are provided on the home page, for very quick access to users who wish to view this specifically.
         - Again, a row of cards shows upcoming events clearly. This is on the home page, and also linked back to via the explore page. Booking instructions are provideed clearly underneath the event listings so that the user knows how to book if desired.
     2. As a Returning Visitor, I want to find contact details for the organisation.
         - Conforming to widely accepted user experience giudelines, a dedicated contact page is linked in the navigatoin bar at the top of each page. The contact form is shirt and only asks for necessary information from the user. After filling out the form, the page reloads to confirm to the user that the information has been sent to the business. 
 
-- Booked Visitor Goals
+- ### Booked Visitor Goals
     1. As a Booked Visitor, I want to find directions to the venue.
         - An address and map are provided on the contact page so that the user can easily find their way to the venue.
     2. As a booked Visitor, I want to find info and pricing on food and drinks.
@@ -126,7 +127,50 @@ Throughout the project, I used the W3C validator tools to find and fix various t
 3. In mobile views when some hero section media queries take effect, some horizontal scrolling was activated, creating unwanted overflow of the hero image, behind the scrollbar.
     - I found the fix for this to be related to my CSS styling. I altered the media query to update the hero image to 100% width rather than 100vw width to resolve this.
 
-## Depoyment
+#### Existing bugs
+1. Contact page - Comment box placeholder text is not aligned in line with other input boxes.
+2. Internet Explorer browser has various issues mainly involving elements using JavaScript. Small amounts of CSS code is also not compatible in IE.
+
+## Setup, Backups & Depoyment
+[Gitpod](https://www.gitpod.io/) was used as my primary IDE.
+A template was provided by Code Institute which I cloned for my project repository.
+Opening the repository in Gitpod is made simple thanks to a [Chrome Extension](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki).
+index.html and other files & folders were created via a combination of terminal commands and GUI shortcuts.
+
+Git / Github were used for file versioning and hosting.
+git add . was used initiall to add my files and folders to the staging area, followed by git commit -m "Initial commit" and git push to finally add them to my Github repository.
+Throughout the project, I was careful to use Git often and tried to make commits as descriptive as possible as well.
+
+Once completed, I used Github pages to host the website.
+This was done via the following steps;
+- Go to the repository you wish to add to Github pages.
+- Select the settings option
+- Slect pages in the left columnm
+- Select the master branch and /root folder
+- Click Save
+- The link will appear after the page refreshes and the website will now be live.
 
 ## Credits
 
+### Bootstrap 5 components used
+[Grid](https://getbootstrap.com/docs/5.0/layout/grid/) was used on all pages of the website for it responsive design.
+[Accordion](https://getbootstrap.com/docs/5.0/components/accordion/) was used on the explore page to group some text together.
+[Buttons](https://getbootstrap.com/docs/5.0/components/buttons/) were used throughout the website to link the user back and forth.
+[Cards](https://getbootstrap.com/docs/5.0/components/card/) were used in places as they provided some additional styling over the normal grid.
+[Navbar](https://getbootstrap.com/docs/5.0/components/navs-tabs/) was heavily customised and used at the top of every page.
+
+### Documentation & Online Help
+[Mozilla MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/column-count) for Gallery design (column-count).
+[StackOverflow](https://stackoverflow.com/questions/17348108/css-stripe-with-multiple-colors) for a method of filling a div with multiple colours.
+[StackOverflow](https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootstrap-navbar) again was used when finding a solution to center navbar items in mobile view.
+[W3 Schools](https://www.w3schools.com/) with help on various syntax, standards and best practice queries.
+[CopyPaste CSS](https://copy-paste-css.com/) was used to help animate the hero section buttons.
+
+### Media
+[Pexels](https://www.pexels.com/) and [UnSplash](https://unsplash.com/) were used for their royalty-free imagery.
+
+### Content
+All content was written by me.
+
+### Acknowledgements
+Code Institute for their support.
