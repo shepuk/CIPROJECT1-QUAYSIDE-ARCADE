@@ -8,8 +8,16 @@
 - Quayside Arcade is a fictional modern arcade/bar/cafe, and a project which I have created to display and test front end abilities. HTML, CSS and Bootstrap were primarilly used, along with other tools which will be outlined in this ReadMe.
 - The website consists of three main pages, with some page section link functionality also used for easier navigation. A home page gived users a quick overview of the business offerings, and returning visitors quick access to upcoming events. For customers who would like to explore further, an 'explore' page goes into greater depth of the business offerings. Finally, a contact page provides users with contact and addresss information.
 
-#Screenshots
-[insert screenshots here]
+## Screenshots
+
+### Home page screenshot
+<img src="assets/images/screenshots/homepagescreenshot.png">
+
+### Explore page screenshot
+<img src="assets/images/screenshots/explorepagescreenshot.png">
+
+### Contact page screenshot
+<img src="assets/images/screenshots/explorepagescreenshot.png">
 
 ## User Experience (UX)
 
@@ -57,6 +65,7 @@
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 - [Bootstrap 5](https://getbootstrap.com/) was used throughout the project for its modern and responsive layouts. Navbar, forms, grid and accordion were the main components used.
+- [jQuery](https://jquery.com/) is used with Bootstrap to provide the responsive navbar.
 - [Font Awesome](https://fontawesome.com/) provided several icons to help make the website look more attractive and give text more emphasis.
 - [Google Fonts](https://fonts.google.com/) was used to import two fonts into the project; Bebas Neue for headings and titles, and Barlow Semi Condensed for other text. 
 - [Git](https://git-scm.com/) was used via the terminal for version control.
@@ -66,12 +75,13 @@
 - [Coolors](https://coolors.co/) is a palette tool which groups complimentary colours together and was used to select my main website colours.
 - [Am I Responsive](http://ami.responsivedesign.is/) is a tool which allowed me to see and show pages of the website in different screen sizes.
 - [CopyPaste CSS](https://copy-paste-css.com/) was used when picking an appropriate animation for button.
-- [jQuery](https://jquery.com/) is used with Bootstrap to provide the responsive navbar.
 
 
 ## Testing
 
 ### User Stories
+A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial briefw was important and is outlined below. Some testing was performed by friends and collegues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
+
 - First time visitor goals
     1. As a new visitor, I want to find information on what the venue does and what it has to offer me.
         - The business features are made immidiately apparent to the user with a short but descriptive hero section, followed by a grid list of products and services. 
@@ -102,10 +112,11 @@
 Throughout the project, I used the W3C validator tools to find and fix various typos or errors in my code.
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-- [Home page validator resuls]
-- [Explore page validator results]
-- [Contact page validator results]
-- [CSS file validator results]
+
+- [Home page validator resuls](https://github.com/shepuk/CIPROJECT1-QUAYSIDE-ARCADE/blob/main/assets/images/validator-results/homeresults.png)
+- [Explore page validator results](https://github.com/shepuk/CIPROJECT1-QUAYSIDE-ARCADE/blob/main/assets/images/validator-results/exploreresults.png)
+- [Contact page validator results](https://github.com/shepuk/CIPROJECT1-QUAYSIDE-ARCADE/blob/main/assets/images/validator-results/contactresults.png)
+- [CSS file validator results](https://github.com/shepuk/CIPROJECT1-QUAYSIDE-ARCADE/blob/main/assets/images/validator-results/cssresults.png)
 
 #### Bug examples
 1. I ran into issues when trying to center some text placed inside the hero heading button. 
