@@ -1,8 +1,5 @@
 # Quayside Arcade
 
-## Live Project
-[View the live project here.](https://shepuk.github.io/CIPROJECT1-QUAYSIDE-ARCADE/)
-
 ## Table of Contents
 
   * [Milestone Project One](#milestone-project-one)
@@ -46,6 +43,9 @@
 - This project tasked me with creating a static website with three pages using front end technologies. Additionally, content should be justified, functional, presented logically, accessible and responsive.
 - Quayside Arcade is a fictional modern arcade/bar/cafe, and a project which I have created to display and test front end abilities. HTML, CSS and Bootstrap were primarilly used, along with other tools which will be outlined in this ReadMe.
 - The website consists of three main pages, with some page section link functionality also used for easier navigation. A home page gived users a quick overview of the business offerings, and returning visitors quick access to upcoming events. For customers who would like to explore further, an 'explore' page goes into greater depth of the business offerings. Finally, a contact page provides users with contact and addresss information.
+
+## Live Project
+[View the live project here.](https://shepuk.github.io/CIPROJECT1-QUAYSIDE-ARCADE/)
 
 ## Screenshots
 
