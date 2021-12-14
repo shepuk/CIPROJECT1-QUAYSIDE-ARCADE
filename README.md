@@ -91,10 +91,10 @@
         -   Bebas Neue and Barlow Semi Condensed fonts are the main fonts used throughout the website with Sans Serif as the fallback font. These custom fonts are modern, readable and pleasing to the eye, making the website more enjoyable as a result. Fonts were imported from [Google Fonts.](https://fonts.google.com/)
         - Using a range of styling and font weights gives good variety throughout the website while only using two fonts. 
         - For navbar links, I used a subtle scale increase and brightness increase hover effect to make it obvious that the text is a link. High-contrast buttons were used elsewhere for clear navigation.
-        - [Font Awesome](https://fontawesome.com/) icons are used throughout the website design to provide emphasis, aethstetic value and clear labeling for the user. 
+        - [Font Awesome](https://fontawesome.com/) icons are used throughout the website design to provide emphasis, aesthetic value and clear labeling for the user. 
     -   #### Imagery
         - Large hero images are used to catch attention and guide the user to the next webpage - naturally stepping through the user journey.
-        - Other images are used throughout and act responsively. A gallery section showcases an inviting venue. Images of food and drinks acompany descriptions of a bar/cafe area for reference. 
+        - Other images are used throughout and act responsively. A gallery section showcases an inviting venue. Images of food and drinks accompany descriptions of a bar/cafe area for reference. 
         -   Various stock imagery has been used througout the website. I was careful to choose images which complemented the design/ font/ colour scheme of my website. Stock photos are sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
 - ### Wireframes
@@ -103,7 +103,7 @@
 
 
 ## Features
--   The website has been designed with responsiveness in mind at all times. Not only do elements responsively and dynamicly move around the page to suit different viewports, but my design is actively updated as well. For example, hero sections change to a full screen design on smaller devices and remove all margins as this looks much better on phone screens.
+-   The website has been designed with responsiveness in mind at all times. Not only do elements responsively and dynamically move around the page to suit different viewports, but my design is actively updated as well. For example, hero sections change to a full screen design on smaller devices and remove all margins as this looks much better on phone screens.
 - The website is interactive and provides great feedback to the user. Starting with the navbar, links scale and change colour when hovered over. The navbar updates to a dropdown on smaller devices. Buttons throughout the website animate and change colour when hovered over.
 - In interactive Google Map is implemented via iframe.
 - The contact form animates when clicked and filled in.
@@ -136,16 +136,16 @@
 - The intended user journey of home > explore > contact is executed well thanks to a logical flow of information and large, striking call-to-action buttons placed in the hero section of pages. Clear signposting is provided to the user so they know where to navigate next. This does not distract from standard clear navigation menus or buttons, however, as these are also displayed clearly for maximum ease of navigation.
 
 ### User Stories
-A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial briefw was important and is outlined below. I tested the website in Chrome, Firefox, Edge, Internet Explorer and Safari browsers, as well as large and small computer displays and mobile phones. All links on all pages were tested. Some testing was performed by friends and collegues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
+A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial brief was important and is outlined below. I tested the website in Chrome, Firefox, Edge, Internet Explorer and Safari browsers, as well as large and small computer displays and mobile phones. All links on all pages were tested. Some testing was performed by friends and colleagues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
 
 - ### First time visitor goals
     1. As a new visitor, I want to find information on what the venue does and what it has to offer me.
         - The business features are made immidiately apparent to the user with a short but descriptive hero section, followed by a grid list of products and services. 
-        - A clean navigaton style helps the user to browse the website easilly and strong headings provide strong context. A natural flow through the website is provided by large 'call to action' buttons in the hero headings, with the goal of eventually leading the user to the booking page.
+        - A clean navigation style helps the user to browse the website easily and strong headings provide strong context. A natural flow through the website is provided by large 'call to action' buttons in the hero headings, with the goal of eventually leading the user to the booking page.
     2. As a new visitor, I want to look at images and see what it's like inside the business.
         - A gallery is provided on the home page which invites the user to see inside the building and provide visual descriptions of what they can expect when visiting.
     3. As a new visitor, I want to find out about any upcoming events to spectate or sign up.
-        - A row of cards shows upcoming events clearly. This is on the home page, and also linked back to via the explore page. Booking instructions are provideed clearly underneath the event listings so that the user knows how to book if desired.
+        - A row of cards shows upcoming events clearly. This is on the home page, and also linked back to via the explore page. Booking instructions are provided clearly underneath the event listings so that the user knows how to book if desired.
     4. As a new visitor, I would like to see menu and pricing options.
         - As part of the user journey, users will eventually be directed to the appropriate section to find out more about the eating and drinking options. Of course, for users seeking this information out specifically, headings are clear and the desired section is easy to find. 
         - PDF food and drinks menus can be viewed and downloaded by the user, with contain details and pricing for various products.
@@ -153,7 +153,7 @@ A mixture of manual and validator testing was performed on the website throughou
 - ### Returning Visitor Goals
     1. As a Returning Visitor, I want to check on upcoming events to spectate or sign up if desired.
         - The event listings are provided on the home page, for very quick access to users who wish to view this specifically.
-        - Again, a row of cards shows upcoming events clearly. This is on the home page, and also linked back to via the explore page. Booking instructions are provideed clearly underneath the event listings so that the user knows how to book if desired.
+        - Again, a row of cards shows upcoming events clearly. This is on the home page, and also linked back to via the explore page. Booking instructions are provided clearly underneath the event listings so that the user knows how to book if desired.
     2. As a Returning Visitor, I want to find contact details for the organisation.
         - Conforming to widely accepted user experience giudelines, a dedicated contact page is linked in the navigatoin bar at the top of each page. The contact form is shirt and only asks for necessary information from the user. After filling out the form, the page reloads to confirm to the user that the information has been sent to the business. 
 
@@ -177,7 +177,7 @@ Throughout the project, I used the W3C validator tools to find and fix various t
 #### Bug examples
 1. I ran into issues when trying to center some text placed inside the hero heading button. 
     - This was resolved by removing the parent div of the p element and directly center aligning the p element instead.
-2. Link hover animations were not displaying correctly when the navbar was in it's collapsed moobile state. To resolve this I needed to center the links in the dropdown menu, however Bootstrap's styling made this difficult.
+2. Link hover animations were not displaying correctly when the navbar was in it's collapsed mobile state. To resolve this I needed to center the links in the dropdown menu, however Bootstrap's styling made this difficult.
     - After some troubleshooting, I searched online and found a StackOverflow post detailing a similar issue. After applying the fix the animations appeared correctly.
 3. In mobile views when some hero section media queries take effect, some horizontal scrolling was activated, creating unwanted overflow of the hero image, behind the scrollbar.
     - I found the fix for this to be related to my CSS styling. I altered the media query to update the hero image to 100% width rather than 100vw width to resolve this.
@@ -195,14 +195,14 @@ Opening the repository in Gitpod is made simple thanks to a [Chrome Extension](h
 index.html and other files & folders were created via a combination of terminal commands and GUI shortcuts.
 
 Git / Github were used for file versioning and hosting.
-git add . was used initiall to add my files and folders to the staging area, followed by git commit -m "Initial commit" and git push to finally add them to my Github repository.
+git add . was used initial to add my files and folders to the staging area, followed by git commit -m "Initial commit" and git push to finally add them to my Github repository.
 Throughout the project, I was careful to use Git often and tried to make commits as descriptive as possible as well.
 
 Once completed, I used Github pages to host the website.
 This was done via the following steps;
 - Go to the repository you wish to add to Github pages.
 - Select the settings option
-- Slect pages in the left columnm
+- Slect pages in the left column
 - Select the master branch and /root folder
 - Click Save
 - The link will appear after the page refreshes and the website will now be live.
