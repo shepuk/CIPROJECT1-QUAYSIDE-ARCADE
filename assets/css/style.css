@@ -476,6 +476,34 @@ iframe {
     width: 100%;
 }
 
+/* ------------------------------------------------------------ 404 PAGE */
+
+.fourzerofour-text {
+    height: 74vh;
+    padding-top: 20vh;
+}
+
+.fourzerofour-text h2 {
+    font-size: 120px;
+}
+
+.fourzerofour-text h3 {
+    font-family: "barlow semi condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.fourzerofour-text p,
+.fourzerofour-text a {
+    font-family: "barlow semi condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #212529;
+}
+
 /* ------------------------------------------------------------ FOOTER */
 
 .footer {
