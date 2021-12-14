@@ -1,13 +1,16 @@
 # Quayside Arcade
 
 ## Table of Contents
-
   * [Milestone Project One](#milestone-project-one)
+  * [Live Project](#live-project)
   * [Screenshots](#screenshots)
     + [Home page screenshot](#home-page-screenshot)
     + [Explore page screenshot](#explore-page-screenshot)
     + [Contact page screenshot](#contact-page-screenshot)
   * [User Experience (UX)](#user-experience--ux-)
+  * [User Experience (UX)](#user-experience--ux--1)
+    + [Target Audience](#target-audience)
+    + [User journey](#user-journey)
     + [User stories](#user-stories)
       - [New Visitor Goals](#new-visitor-goals)
       - [Returning Visitor Goals](#returning-visitor-goals)
@@ -21,6 +24,8 @@
     + [Features to implement in the future](#features-to-implement-in-the-future)
     + [Technologies / Libraries / Programs](#technologies---libraries---programs)
   * [Testing](#testing)
+    + [Target audience appeal](#target-audience-appeal)
+    + [User journey](#user-journey-1)
     + [User Stories](#user-stories)
     + [First time visitor goals](#first-time-visitor-goals)
     + [Returning Visitor Goals](#returning-visitor-goals-1)
@@ -39,10 +44,11 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
+
 ## Milestone Project One
 - This project tasked me with creating a static website with three pages using front end technologies. Additionally, content should be justified, functional, presented logically, accessible and responsive.
 - Quayside Arcade is a fictional modern arcade/bar/cafe, and a project which I have created to display and test front end abilities. HTML, CSS and Bootstrap were primarilly used, along with other tools which will be outlined in this ReadMe.
-- The website consists of three main pages, with some page section link functionality also used for easier navigation. A home page gived users a quick overview of the business offerings, and returning visitors quick access to upcoming events. For customers who would like to explore further, an 'explore' page goes into greater depth of the business offerings. Finally, a contact page provides users with contact and addresss information.
+- The website consists of three main pages, with some page section link functionality also used for easier navigation. A home page gives users a quick overview of the business offerings, and returning visitors quick access to upcoming events. For customers who would like to explore further, an 'explore' page goes into greater depth of the business offerings. Finally, a contact page provides users with contact and address information.
 
 ## Live Project
 [View the live project here.](https://shepuk.github.io/CIPROJECT1-QUAYSIDE-ARCADE/)
@@ -60,6 +66,10 @@
 
 ## User Experience (UX)
 
+-   ### Target Audience
+    - The target audience for the website would be clients interested in gaming and geek culture, or exclusively the bar/cafe portion of the business. Because of this the target audience is wide-ranging, but the largest portion of the target audience would be young people aged teens to adults around the age of 35.
+-   ### User journey
+    - I would like to guide the user through the website naturally with well-placed buttons and an easy to follow flow of information. A typical user should be easily able to start at the home page, explore various features of the business and finally end up at the contact page.
 -   ### User stories
     -   #### New Visitor Goals
         1. As a new visitor, I want to find information on what the venue does and what it has to offer me.
@@ -119,6 +129,12 @@
 
 ## Testing
 
+### Target audience appeal
+- I tried to appeal to the target audience by adopting a modern design. This included stylish fonts and icons, rounded corners and modern language. By sticking to this styling, the website is eye-catching and appealing to the target demographic, while retaining ease of navigartion and good accesibility.
+
+### User journey
+- The intended user journey of home > explore > contact is executed well thanks to a logical flow of information and large, striking call-to-action buttons placed in the hero section of pages. Clear signposting is provided to the user so they know where to navigate next. This does not distract from standard clear navigation menus or buttons, however, as these are also displayed clearly for maximum ease of navigation.
+
 ### User Stories
 A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial briefw was important and is outlined below. I tested the website in Chrome, Firefox, Edge, Internet Explorer and Safari browsers, as well as large and small computer displays and mobile phones. All links on all pages were tested. Some testing was performed by friends and collegues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
 
@@ -165,6 +181,8 @@ Throughout the project, I used the W3C validator tools to find and fix various t
     - After some troubleshooting, I searched online and found a StackOverflow post detailing a similar issue. After applying the fix the animations appeared correctly.
 3. In mobile views when some hero section media queries take effect, some horizontal scrolling was activated, creating unwanted overflow of the hero image, behind the scrollbar.
     - I found the fix for this to be related to my CSS styling. I altered the media query to update the hero image to 100% width rather than 100vw width to resolve this.
+4. After deploying the files to Github pages, many links broke and directed to a Github 404 page.
+    - This was easily fixable by slightly changing the links within my HTML code into a format which Github pages was compatible with. In all cases, this involved removing a forwardslash from the beginning of the link. This also prompted me to add my own 404 page.
 
 #### Existing bugs
 1. Contact page - Comment box placeholder text is not aligned in line with other input boxes.
@@ -212,4 +230,4 @@ This was done via the following steps;
 All content was written by me.
 
 ### Acknowledgements
-Code Institute for their support.
+Code Institute & Newcastle College for their support.
