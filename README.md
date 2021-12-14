@@ -46,9 +46,11 @@
 
 
 ## Milestone Project One
-- This project tasked me with creating a static website with three pages using front end technologies. Additionally, content should be justified, functional, presented logically, accessible and responsive.
-- Quayside Arcade is a fictional modern arcade/bar/cafe, and a project which I have created to display and test front end abilities. HTML, CSS and Bootstrap were primarilly used, along with other tools which will be outlined in this ReadMe.
-- The website consists of three main pages, with some page section link functionality also used for easier navigation. A home page gives users a quick overview of the business offerings, and returning visitors quick access to upcoming events. For customers who would like to explore further, an 'explore' page goes into greater depth of the business offerings. Finally, a contact page provides users with contact and address information.
+- This project involved creating a static website with three pages using front end technologies. Additionally, content should be justified, functional, presented logically, accessible and responsive.
+- Quayside Arcade is a fictional modern arcade/bar/cafe. HTML, CSS and Bootstrap were primarilly used, along with other tools which will be outlined in this ReadMe.
+- Deciding on a modern bar/cafe/arcade as my project theme gives me plenty of choice when deciding on content and design. A broad range of technologies can be used and the website can be expanded greatly in the future. 
+- The website consists of three main pages (and a 404 page). A home page gives users a quick overview of the business offerings, and returning visitors quick access to upcoming events. For customers who would like to explore further, an 'explore' page goes into greater depth of the business offerings. Finally, a contact page provides users with contact and address information.
+- Chosing this project allowed me to explore a range of front end technology and greatly expand my design, development and testing knowledge.
 
 ## Live Project
 [View the live project here.](https://shepuk.github.io/CIPROJECT1-QUAYSIDE-ARCADE/)
@@ -107,9 +109,10 @@
 - The website is interactive and provides great feedback to the user. Starting with the navbar, links scale and change colour when hovered over. The navbar updates to a dropdown on smaller devices. Buttons throughout the website animate and change colour when hovered over.
 - In interactive Google Map is implemented via iframe.
 - The contact form animates when clicked and filled in.
+- A 404 page directs users back to the home page if the link is typed out incorrectly.
 
 ### Features to implement in the future
-- I would like to return to this project and add an event booking feature. This would allow users to select an event, enter their details and be enrolled in one of the advertised events. 
+- I would like to return to this project and add an event booking system with back end technology. This would allow users to select an event, enter their details and be enrolled in one of the advertised events. Perhaps an automated email could be sent out, also.
 
 ### Technologies / Libraries / Programs
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) provided the main structure of the page.
@@ -128,6 +131,7 @@
 
 
 ## Testing
+#### A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial brief was important and is outlined below. I tested the website in Chrome, Firefox, Edge, Internet Explorer and Safari browsers, as well as large and small computer displays and mobile phones. All links on all pages were tested. Some testing was performed by friends and colleagues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
 
 ### Target audience appeal
 - I tried to appeal to the target audience by adopting a modern design. This included stylish fonts and icons, rounded corners and modern language. By sticking to this styling, the website is eye-catching and appealing to the target demographic, while retaining ease of navigartion and good accesibility.
@@ -136,7 +140,6 @@
 - The intended user journey of home > explore > contact is executed well thanks to a logical flow of information and large, striking call-to-action buttons placed in the hero section of pages. Clear signposting is provided to the user so they know where to navigate next. This does not distract from standard clear navigation menus or buttons, however, as these are also displayed clearly for maximum ease of navigation.
 
 ### User Stories
-A mixture of manual and validator testing was performed on the website throughout development and after completion. Manually testing user cases as outlined in the initial brief was important and is outlined below. I tested the website in Chrome, Firefox, Edge, Internet Explorer and Safari browsers, as well as large and small computer displays and mobile phones. All links on all pages were tested. Some testing was performed by friends and colleagues, such as general user-friendliness and link testing, to provide a fresh perspective after I had been working on the project alone for some time.
 
 - ### First time visitor goals
     1. As a new visitor, I want to find information on what the venue does and what it has to offer me.
