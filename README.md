@@ -97,7 +97,7 @@
     -   #### Imagery
         - Large hero images are used to catch attention and guide the user to the next webpage - naturally stepping through the user journey.
         - Other images are used throughout and act responsively. A gallery section showcases an inviting venue. Images of food and drinks accompany descriptions of a bar/cafe area for reference. 
-        -   Various stock imagery has been used througout the website. I was careful to choose images which complemented the design/ font/ colour scheme of my website. Stock photos are sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+        -   Various stock imagery and video has been used througout the website. I was careful to choose images which complemented the design/ font/ colour scheme of my website. Stock photos/videos are sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
 - ### Wireframes
     - View wireframe [here](https://github.com/shepuk/CIPROJECT1-QUAYSIDE-ARCADE/blob/main/assets/images/wireframe/wireframe.png)
@@ -227,7 +227,7 @@ This was done via the following steps;
 [CopyPaste CSS](https://copy-paste-css.com/) was used to help animate the hero section buttons.
 
 ### Media
-[Pexels](https://www.pexels.com/) and [UnSplash](https://unsplash.com/) were used for their royalty-free imagery.
+[Pexels](https://www.pexels.com/) and [UnSplash](https://unsplash.com/) were used for their royalty-free imagery and videos.
 
 ### Content
 All content was written by me.
